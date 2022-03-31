@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="fundo">
+        <h1>Clima</h1>
+
+        <form class="busca">
+            <input type="search" id="searchInput" />
+            <button>Buscar</button>
+        </form>
+
+        <div class="resultado">
+            <div class="titulo">--</div>
+
+            <div class="info">
+                <div class="temp">
+                    <div class="tempTitulo">Temperatura Minima</div>
+                    <div class="tempmininfo">-- <sup>ºC</sup></div>
+                    <div class="tempTitulo">Temperatura Atual</div>
+                    <div class="tempatualinfo">-- <sup>ºC</sup></div>
+                    <div class="tempTitulo">Temperatura Maxima</div>
+                    <div class="tempmaxinfo">-- <sup>ºC</sup></div>
+                    <div class="feelsLikeTitulo">Sensação Termica</div>
+                    <div class="feelsLikeinfo">-- <sup>ºC</sup></div>
+                    <img src="http://openweathermap.org/img/wn/10d@2x.png" />
+                    <div class="descriçao">-- </div>
+                </div>
+                <div class="vento">
+                    <div class="umidadeTitulo">Umidade</div>
+                    <div class="umidadeinfo">-- <sup>%</sup></div>
+                    <div class="ventoTitulo">Vento</div>
+                    <div class="ventoInfo">-- <span>km/h</span></div>
+                    <div class="ventoArea">
+                        <div class="ventoPonto" style="transform: rotate(0deg)"></div>
+                    </div>
+                </div>
+                <div class="cordenadastitulo">Cordenadas</div>
+                <div class="cordenadads">
+                    <div class="latitudetitulo">Latitude</div>
+                    <div class="latitudeinfo">-- </div>
+                    <div class="longitudetitulo">Longitide</div>
+                    <div class="longitudeinfo">-- </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="aviso"></div>
+
+        <footer>Criado por B7Web e refeito por <a href="https://github.com/willianduartte">Willian Duarte</a></footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
